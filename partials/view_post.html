@@ -1,0 +1,21 @@
+<div class="container" ng-controller="postController as post">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="container">
+                <div class="card">
+                    <div class="image"><img ng-src="{{'/img/photos/' + post.date + '/title.jpg'}}" alt="Walking the beach holding surfboards"/></div>
+                    <div class="title">{{ post.title }}
+                        <p><small>Posted: {{ post.posted }}</small></p>
+                    </div>
+                    <div class="content">
+                        <p>{{ post.body }}</p>
+                    </div>
+                    <div class="action">
+                        <a href="/blog" class="btn btn-primary">Back to Posts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- div ng-controller="modalController"></div-->
+</div>

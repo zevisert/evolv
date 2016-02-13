@@ -17,6 +17,15 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# .idea folder
+.idea/
+
+#Blog content
+json/posts.json
+
+#Node modules
+node_modules/
+
 # =========================
 # Operating System Files
 # =========================

@@ -6,7 +6,6 @@ angular.module('ngPostCtrl', ['ui.bootstrap'])
         vm.showModal = false;
 
         $http.get('json/posts.json').success(function (data) {
-            console.log(data);
             var key = $routeParams.date;
             if (data.posts.hasOwnProperty(key)) {
                 vm.title = data.posts[key].title;

@@ -1,6 +1,19 @@
 <div class="container" ng-controller="blogController as blog">
 	<div class="row">
 		<div class="col-lg-12 col-md-12 col-sm-12">
+			<div class="container">
+				<div class="card">
+					<div class="content row">
+						<div class="col-lg-2 col-md-2 col-sm-2">
+							<img class="img-responsive img-rounded" src="/img/flat-icons/PNG/Treasure Map.png">
+						</div>
+						<div class="col-lg-10 col-md-10 col-sm-10">
+							<span class="title no-border no-lPadding">Blog</span>
+							<p>I know it's barren right now, but there will be more and more stuff here soon! I've been working mostly on building a platform I'm happy using to post these stories on, and until I get that the way I want it, my focus will continually be drawn away from actually writing blog posts. I also will have to put some sort of <a href="http://codepen.io/khadkamhn/full/EVaJLy">authentication</a> on this page too.. That said, I've got one post below from a while back, about my most recent trip to Tofino and Ucluelet B.C., nevermind the <a href="http://zevisert.blogspot.ca/">blog</a> I ran during my exchange year in france, which will eventually get ported to this page.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="container" ng-repeat="post in blog.posts">
 				<div class="card">
 					<div class="title no-border">{{ post.title }}</div>

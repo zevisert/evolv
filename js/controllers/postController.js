@@ -11,7 +11,11 @@ angular.module('ngPostCtrl', ['ui.bootstrap'])
                 vm.title = data.posts[key].title;
                 vm.body = data.posts[key].body;
                 vm.date = data.posts[key].date;
+                if (typeof vm.date === "string"){
+                    vm.date = Number(data.posts[key].date);
+                }
                 vm.posted = new Date(vm.date).toDateString();
+
                 if (data.posts[key].img.length === 0) {
                     vm.img = "";
                     vm.hasImage = false;

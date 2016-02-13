@@ -3,7 +3,8 @@
 }
 
 .center {
-	text-align: center;
+	margin: 0 auto;
+	float: none;
 }
 
 img .center {
@@ -79,6 +80,10 @@ p>a:hover{
 
 a>.fa {
 	color: #334D5C;
+}
+
+.btn>.fa{
+	color: inherit;
 }
 
 /* Bootswatch overrides */

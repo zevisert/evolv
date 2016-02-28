@@ -18,7 +18,7 @@
 				<div class="card row">
 					<div class="title no-border">{{ post.title }}</div>
 					<div class="content">
-						<p>{{ post.body.trunc(150) }}</p>
+						<div ng-bind-html="post.body.trunc(150)"></div>
 					</div>
 					<div class="action">
 						<a href="/blog/{{ post.date }}" class="btn btn-primary">Link to Post</a>

@@ -53,12 +53,24 @@
 <body class='page-container' ng-app='ngZevIsertApp' ng-controller='mainController as main'>
 	<!--[if lt IE 8]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
 
-	<!-- Add your site or application content here -->
-	<header class='relative'>
-		<div ng-include src="'templates/header.html'" class='header'></div>
-	</header>
-	<main class='relative'>
-		<div class="body" ng-view></div>
-	</main>
+	<div id="wrapper">
+
+		<div id="header">
+			<header class='relative'>
+				<div ng-include src="'templates/header.html'" class='header'></div>
+			</header>
+		</div><!-- #header -->
+
+		<div id="content">
+			<main class='relative'>
+				<div class="body" ng-view></div>
+			</main>
+		</div><!-- #content -->
+
+		<div id="footer">
+		</div><!-- #footer -->
+
+	</div><!-- #wrapper -->
+
 </body>
 </html>

@@ -34,6 +34,7 @@ p>a:hover{
 
 .body {
 	position: relative;
+	margin: none;
 }
 
 .page-container {

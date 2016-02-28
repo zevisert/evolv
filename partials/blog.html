@@ -1,6 +1,6 @@
 <div class="container" ng-controller="blogController as blog">
 	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center">
 			<div class="container">
 				<div class="card">
 					<div class="content row">
@@ -15,7 +15,7 @@
 				</div>
 			</div>
 			<div class="container" ng-repeat="post in blog.posts">
-				<div class="card">
+				<div class="card row">
 					<div class="title no-border">{{ post.title }}</div>
 					<div class="content">
 						<p>{{ post.body.trunc(150) }}</p>

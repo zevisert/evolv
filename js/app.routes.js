@@ -6,7 +6,6 @@ angular.module('appRouter', ['ngRoute'])
 	$routeProvider
 
 	.when('/', {
-		templateUrl: 'partials/evolv.html',
 	})
 
 	.when('/home', {

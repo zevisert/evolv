@@ -23,6 +23,17 @@ $RECYCLE.BIN/
 # .idea folder
 .idea/
 
+#Images
+img/
+*.png
+*.svg
+*.ico
+*.jpg
+*.jpeg
+
+#_files
+_*.*
+
 #Blog content
 json/posts.json
 
@@ -57,6 +68,4 @@ node_modules/
 Network Trash Folder
 Temporary Items
 .apdisk
-*.pdf
-*.jpg
-*.png
+*.htaccess

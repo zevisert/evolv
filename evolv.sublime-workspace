@@ -1,0 +1,2106 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cookies",
+				"angular: $cookies"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"compe",
+				"competition"
+			],
+			[
+				"NumpadE",
+				"NumpadEnter"
+			],
+			[
+				"Inse",
+				"Insert"
+			],
+			[
+				"are",
+				"area_to_dest"
+			],
+			[
+				"area",
+				"area_to_dest"
+			],
+			[
+				"coo",
+				"coord_in_safe_area"
+			],
+			[
+				"get",
+				"get_snake_length"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"loc",
+				"angular: $location"
+			],
+			[
+				"locati",
+				"angular: $locationProvider"
+			],
+			[
+				"state",
+				"stateProvider"
+			],
+			[
+				"loca",
+				"angular: $location"
+			],
+			[
+				"JS",
+				"angular.fromJson"
+			],
+			[
+				"Route",
+				"angular: $routeParams"
+			],
+			[
+				"route",
+				"angular: $routeParams"
+			],
+			[
+				"email",
+				"email-submit"
+			],
+			[
+				"IfWinN",
+				"IfWinNotActive	#IfWinNotActive"
+			],
+			[
+				"Re",
+				"Return"
+			],
+			[
+				"ErrorLe",
+				"ErrorLevel"
+			],
+			[
+				"cont",
+				"Control"
+			],
+			[
+				"WinWai",
+				"WinWaitActive"
+			],
+			[
+				"WinA",
+				"WinActive()"
+			],
+			[
+				"mod",
+				"module	QUnit module"
+			],
+			[
+				"IfW",
+				"IfWinNotExist	#IfWinNotExist"
+			],
+			[
+				"ME",
+				"Media_Play_Pause"
+			],
+			[
+				"IfWin",
+				"IfWinExist	#IfWinExist"
+			],
+			[
+				"Pg",
+				"PgDn"
+			],
+			[
+				"Soun",
+				"SoundPlay"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"Whe",
+				"WheelDown"
+			],
+			[
+				"Wh",
+				"WheelUp"
+			],
+			[
+				"f",
+				"3F5765"
+			],
+			[
+				"B",
+				"BDD4DE"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"V",
+				"Volume_Mute"
+			],
+			[
+				"bi",
+				"blanditiis"
+			],
+			[
+				"hom",
+				"homeController"
+			],
+			[
+				"contror",
+				"controllerAs"
+			],
+			[
+				"sele",
+				"selectedColour"
+			],
+			[
+				"F",
+				"FloodFillBFS"
+			],
+			[
+				"fill",
+				"fillColour"
+			],
+			[
+				"Fl",
+				"FloodFillDFS"
+			],
+			[
+				"D",
+				"DFSTraversal"
+			],
+			[
+				"de",
+				"degreeThreshold"
+			],
+			[
+				"Im",
+				"ImageViewerA5"
+			],
+			[
+				"Pi",
+				"PixelVertex"
+			],
+			[
+				"is",
+				"isNeighbour"
+			],
+			[
+				"s",
+				"selectedColour"
+			],
+			[
+				"se",
+				"setPixel"
+			],
+			[
+				"sel",
+				"selectedColour"
+			],
+			[
+				"set",
+				"setPixel"
+			],
+			[
+				"ran",
+				"randomDirections"
+			],
+			[
+				"Pix",
+				"PixelVertex"
+			],
+			[
+				"vi",
+				"viewer"
+			],
+			[
+				"ps",
+				"possibleDirections"
+			],
+			[
+				"algoti",
+				"algorithmic"
+			],
+			[
+				"en",
+				"end{center}	written.tex"
+			],
+			[
+				"qu",
+				"questionnumber{arg1}{arg2}	written.tex"
+			],
+			[
+				"end",
+				"end{enumerate}	written.tex"
+			],
+			[
+				"beginenum",
+				"begin{enumerate}\\item	latex-document"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"sc",
+				"$scope	AngularJS"
+			],
+			[
+				"time",
+				"$timeout	AngularJS"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"si",
+				"font-size"
+			],
+			[
+				"sceDe",
+				"$sceDelegateProvider	AngularJS"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"module",
+				"verbose_module	AngularJS"
+			],
+			[
+				"an",
+				"angular	AngularJS"
+			],
+			[
+				"te",
+				"templateUrl"
+			],
+			[
+				"adm",
+				"adminPage"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"res",
+				"resolve	.resolve()"
+			],
+			[
+				"admin",
+				"adminCtrl"
+			],
+			[
+				"ed",
+				"editBookings"
+			],
+			[
+				"Ad",
+				"AdminController"
+			],
+			[
+				"book",
+				"bookings"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"d",
+				"d	display: ${1:block};"
+			],
+			[
+				"re",
+				"repeat-x"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"to",
+				"toDateString"
+			],
+			[
+				"eq",
+				"equipmentType"
+			],
+			[
+				"E",
+				"equipment"
+			],
+			[
+				"e",
+				"equipment"
+			],
+			[
+				"ha",
+				"hasEquipmentTypes"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"new",
+				"new_equip"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"equ",
+				"equipmentID"
+			],
+			[
+				"equi",
+				"equipment"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"user",
+				"userType"
+			],
+			[
+				"X",
+				"XButton2"
+			],
+			[
+				"one",
+				"oneCall"
+			],
+			[
+				"has",
+				"hasOwnProperty"
+			],
+			[
+				"Ob",
+				"object"
+			],
+			[
+				"ex",
+				"exist"
+			],
+			[
+				"boo",
+				"bookings"
+			],
+			[
+				"R",
+				"roomNumber"
+			],
+			[
+				"Book",
+				"bookingID"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"b",
+				"bookingID"
+			],
+			[
+				"booking",
+				"bookingID"
+			],
+			[
+				"User",
+				"UserSchema"
+			],
+			[
+				"me",
+				"methods"
+			],
+			[
+				"Use",
+				"UserSchema"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"v",
+				"views"
+			],
+			[
+				"usern",
+				"username"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "partials/about.html",
+			"settings":
+			{
+				"buffer_size": 2827,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/header.html",
+			"settings":
+			{
+				"buffer_size": 1412,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 231,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2783,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/controllers/blogController.js",
+			"settings":
+			{
+				"buffer_size": 1144,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/controllers/postController.js",
+			"settings":
+			{
+				"buffer_size": 1156,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "partials/view_post.html",
+			"settings":
+			{
+				"buffer_size": 895,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "partials/blog.html",
+			"settings":
+			{
+				"buffer_size": 1663,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/passLockModal.html",
+			"settings":
+			{
+				"buffer_size": 671,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Primary Quick Build"
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Choose Quick Build"
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				"Primary Quick Build"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Primary Quick Build"
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Choose Quick Build"
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "rein",
+		"selected_items":
+		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"r",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"jslint",
+				"JSLint"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"rin",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"jsl",
+				"JSLint"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Indent JSON"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tr",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"tab",
+				"AlignTab"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"AlignTab"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"renin",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"t",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"al",
+				"AlignTab"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"wap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"spell",
+				"Google Spell Check"
+			],
+			[
+				"look",
+				"LaTeXing: Lookup TeX Symbol"
+			],
+			[
+				"late",
+				"Preferences: LaTeXing Settings - Default"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"tex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"Lat",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"delete",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"recon",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"reint",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/webpage/evolv",
+		"/D/webpage/evolv/css",
+		"/D/webpage/evolv/js",
+		"/D/webpage/evolv/js/controllers",
+		"/D/webpage/evolv/partials",
+		"/D/webpage/evolv/templates"
+	],
+	"file_history":
+	[
+		"/D/webpage/evolv/json/posts.json",
+		"/D/webpage/evolv/css/HeroCard.css",
+		"/D/webpage/evolv/css/bootstrap.css",
+		"/D/webpage/evolv/partials/blog.html",
+		"/D/webpage/evolv/partials/home.html",
+		"/D/webpage/evolv/partials/view_post.html",
+		"/D/webpage/evolv/partials/evolv.html",
+		"/D/webpage/evolv/css/style.css",
+		"/D/OneDrive/Courses/3A/ASTR150/Black Hole/zev_out.txt",
+		"/D/OneDrive/Courses/3A/ASTR150/Black Hole/bopgui/tb_bop_gui.py",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp05306/home/zevisert/public_html/css/HeroCard.css",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp02897/home/zevisert/public_html/css/style.css",
+		"/D/webpage/evolv/.gitignore",
+		"/C/Users/ZevIs/Downloads/CSSReset.com - Keeping Footer At The Bottom Of The Page/CSSReset.com - Keeping Footer At The Bottom Of The Page/index.html",
+		"/D/webpage/evolv/templates/header.html",
+		"/C/Users/ZevIs/Downloads/CSSReset.com - Keeping Footer At The Bottom Of The Page/CSSReset.com - Keeping Footer At The Bottom Of The Page/style.css",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp50822/home/zevisert/public_html/json/posts.json",
+		"/D/webpage/evolv/img/photos/1456678046224/title.png",
+		"/C/Users/ZevIs/AppData/Local/GitHub/PortableGit_c7e0cbde92ba565cb218a521411d0e854079a28c/usr/bin/notepad",
+		"/C/Users/ZevIs/Documents/GitHub/battlesnake2016/app/main.py",
+		"/D/OneDrive/Courses/3A/CSC361/A1/readme.txt",
+		"/C/Users/ZevIs/Documents/GitHub/battlesnake2016/app/utils.py",
+		"/C/Users/ZevIs/Documents/GitHub/CSC361/A2/lab-notes.txt",
+		"/D/OneDrive/Courses/3A/CSC361/A2/A2/A2/lab-notes.txt",
+		"/E/Lab5/bashlab5.history.txt",
+		"/E/Lab5/Gerrit.info.txt",
+		"/C/Users/ZevIs/Documents/GitHub/opportunity_website/public/index.html",
+		"/C/Users/ZevIs/Documents/GitHub/opportunity_website/public/supplier/index.html",
+		"/D/webpage/evolv/index.html",
+		"/D/webpage/evolv/partials/about.html",
+		"/D/webpage/evolv/Readme.md",
+		"/D/webpage/evolv/js/app.routes.js",
+		"/C/Users/ZevIs/Documents/GitHub/opportunity_website/public/generic.html",
+		"/C/Users/ZevIs/Documents/GitHub/opportunity_website/public/elements.html",
+		"/D/webpage/evolv/js/controllers/postController.js",
+		"/D/webpage/evolv/partials/404.html",
+		"/D/webpage/evolv/js/app.js",
+		"/D/webpage/evolv/js/controllers/blogController.js",
+		"/C/Users/ZevIs/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/AutoHotkey.ahk",
+		"/C/Program Files/Logitech Gaming Software/Scripts/defaultAudioOut.ahk",
+		"/C/Program Files/Git/LICENSE.txt",
+		"/C/Users/ZevIs/Downloads/cgi-node.js",
+		"/C/Users/ZevIs/.v8flags.3.28.73.ZevIs.json",
+		"/C/Users/ZevIs/Desktop/GitHubLog.txt",
+		"/C/Users/ZevIs/.ssh/github_rsa.pub",
+		"/D/webpage/evolv/.git/index",
+		"/C/Users/ZevIs/CertUtil.log",
+		"/C/Users/ZevIs/certenroll.log",
+		"/C/Users/ZevIs/.viminfo",
+		"/C/Users/ZevIs/.bash_history",
+		"/C/Users/ZevIs/.gitconfig",
+		"/C/Users/ZevIs/.ssh/github_rsa",
+		"/C/Program Files/Console2/console.xml",
+		"/C/Program Files/Cygwin/Cygwin.bat",
+		"/C/Program Files/Cygwin/Shell_here.bat",
+		"/C/Users/ZevIs/Documents/Ceiling.vgbproj",
+		"/C/Program Files/Cygwin/home/ZevIs/.bashrc",
+		"/C/Users/ZevIs/Downloads/Console-2.00b148-Beta_32bit/Console2/console.xml",
+		"/C/Users/ZevIs/Downloads/shmnview/readme.txt",
+		"/C/Users/ZevIs/Desktop/Lab4bash.history.txt.txt",
+		"/E/Lab4/Lab4bash.history.txt.txt",
+		"/D/OneDrive/Courses/3A/CSC226/A2/src/MinMax.java",
+		"/C/Program Files/CanonBJ/IJPrinter/Canon MG5200 series/readme_English.txt",
+		"/C/Users/ZevIs/Desktop/3A/CSC226/A2/src/MinMax.java",
+		"/D/OneDrive/Courses/3A/.gitignore",
+		"/D/OneDrive/Courses/3A/CSC226/A2/.project",
+		"/D/OneDrive/Courses/3A/README.md",
+		"/D/OneDrive/Courses/3A/CSC361/A1/SimpClient.h",
+		"/D/OneDrive/Courses/3A/CSC361/A1/SimpServer.h",
+		"/D/OneDrive/Courses/3A/SENG371/Lab2/Lab2bash.history.txt",
+		"/C/Users/ZevIs/Desktop/pom.xml",
+		"/C/Users/ZevIs/Desktop/lab3bash.history.txt",
+		"/C/Users/ZevIs/Desktop/xfer.txt",
+		"/D/OneDrive/Documents/zevi_def_ahk_script.ahk",
+		"/C/Users/ZevIs/Documents/GitHub/opportunity_website/index.html",
+		"/C/Users/ZevIs/Documents/GitHub/opportunity_website/README.txt",
+		"/C/Users/ZevIs/workspace/zevisert.csc226.a1/src/zevisert/csc226/a1/FLrep.java",
+		"/C/Users/ZevIs/workspace/zevisert.csc226.a1/.classpath",
+		"/C/Users/ZevIs/Documents/GitHub/opportunity_website/Readme.md",
+		"/C/Users/ZevIs/Desktop/ZOrep.java",
+		"/C/Users/ZevIs/Desktop/TreeAndRepresentation.java",
+		"/C/Users/ZevIs/Desktop/FLrep.java",
+		"/C/Users/ZevIs/workspace/Courses/TestAss1.java",
+		"/C/Users/ZevIs/Desktop/TestAss1.java",
+		"/C/Users/ZevIs/Desktop/BT.java",
+		"/C/Users/ZevIs/workspace/Courses/FLrep.java",
+		"/C/Users/ZevIs/workspace/Courses/_TreeAndRepresentation.java",
+		"/C/Users/ZevIs/workspace/Courses/ZOrep.java",
+		"/C/Users/ZevIs/workspace/Courses/_BT.java",
+		"/D/OneDrive/Documents/CO-OP/Reliable Controls/Zev/SystemEntry.cpp",
+		"/D/OneDrive/Documents/CO-OP/Reliable Controls/Zev/SystemsList.cpp",
+		"/D/OneDrive/Documents/CO-OP/Reliable Controls/Zev/ConnectionSetupGridView.cpp",
+		"/C/Users/ZevIs/Documents/GitHub/LIFX-Control/README.md",
+		"/D/webpage/evolv/node_modules/angular/README.md",
+		"/C/Users/ZevIs/Documents/KinectHello.reg",
+		"/D/OneDrive/Documents/CO-OP/Reliable Controls/Zev/SystemEntry.h",
+		"/D/OneDrive/Documents/CO-OP/Reliable Controls/Zev/SystemsList.h",
+		"/D/OneDrive/Documents/CO-OP/Reliable Controls/Zev/ConfigProvider.cpp",
+		"/D/OneDrive/Documents/CO-OP/Reliable Controls/Zev/MetroBlueScrollBar.cpp",
+		"/D/OneDrive/Documents/CO-OP/Reliable Controls/Zev/MetroBlueSplitter.cpp",
+		"/D/OneDrive/Documents/CO-OP/Reliable Controls/Zev/MetroBlueFormView.cpp",
+		"/C/Program Files (x86)/TeamViewer/TeamViewer10_Logfile.log",
+		"/E/Photoshop Temp58942884",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp02431/home/zevisert/dev_html/js/analytics.js",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp02873/home/zevisert/dev_html/js/app.js",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp02783/home/zevisert/dev_html/js/app.routes.js",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp52313/home/zevisert/dev_html/index.html",
+		"/C/Program Files/Logitech Gaming Software/Resources/G930/Manifest/Device_Manifest.xml",
+		"/C/Users/ZevIs/AppData/Roaming/.minecraft/Mohatu/config/InvTweaksTree.txt",
+		"/C/Users/ZevIs/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/New AutoHotkey Script.ahk",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp57253/home/zevisert/dev_html/js/app.js",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp01132/home/zevisert/dev_html/partials/home.html",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp51672/home/zevisert/dev_html/partials/evolv.html",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp48190/home/zevisert/dev_html/index.html",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp00342/home/zevisert/dev_html/js/controllers/homeController.js",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp01814/home/zevisert/dev_html/partials/blog.html",
+		"/C/Users/ZevIs/defaultAudioOut.ahk",
+		"/C/Users/ZevIs/AppData/Roaming/.minecraft/launcher_profiles.json",
+		"/C/Users/ZevIs/Downloads/Silent.txt",
+		"/C/Users/ZevIs/AppData/Local/Temp/7zOCEC9.tmp/Silent.txt",
+		"/C/Users/ZevIs/AppData/Local/Temp/Temp1_DynamicLights-1.8.zip/readme.txt",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp19805/home/zevisert/dev_html/js/controllers/blogController.js",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp55718/home/zevisert/dev_html/partials/about.html",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp30419/home/zevisert/dev_html/partials/home.html",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp17217/home/zevisert/dev_html/partials/blog.html",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp17443/home/zevisert/dev_html/json/posts.json",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp20267/home/zevisert/dev_html/partials/evolv.html",
+		"/C/Users/ZevIs/AppData/Local/Temp/scp07007/home/zevisert/dev_html/js/app.routes.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<project>",
+			"C:\\Users\\ZevIs\\Documents\\GitHub\\BookIt",
+			"C:\\Users\\ZevIs\\Documents\\GitHub\\BookIt\\app\\models",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fluid",
+			"-fluid",
+			"1139256705.393781",
+			" ",
+			"1379171124",
+			"1362393908",
+			"reports[i]",
+			"{",
+			"	",
+			"is_valid",
+			"is_safe",
+			"1,",
+			"0,",
+			"],",
+			"0]",
+			"1,",
+			"0,",
+			"],",
+			"0",
+			"1",
+			"],",
+			"get_snake_length",
+			"^\\ \\ \\d\\d\\d\\ ",
+			"$",
+			"^\\ \\ \\d\\d\\d\\ \\ ",
+			"12",
+			"center",
+			" center",
+			"3",
+			"text-",
+			"3",
+			"col-xs-4",
+			"btn-warning",
+			"primary",
+			"info",
+			"\\",
+			"font",
+			"navbar-fixed-top",
+			"<br>",
+			"\\\\n",
+			"<br>",
+			"error",
+			"' ",
+			"^\\n",
+			"\\ ",
+			"HeroBalu",
+			"mmB2_first",
+			"mmB2_minmax",
+			"></",
+			" \\n</",
+			"<",
+			"^     ",
+			"^ ",
+			"\\ ",
+			"highlight",
+			"count",
+			"forget",
+			"outlineColour",
+			"visit()",
+			"{",
+			"goto default;",
+			"break",
+			"						if (w.discovered() && v.getColour().equals(w.getColour())){\n							blackBag.add(w);",
+			"v.getColour().equals(w.getColour())",
+			"dir",
+			"Dir",
+			"dir",
+			"v.getColour().equals(w.getColour())",
+			"dir",
+			"~",
+			"<PixelVertex>()",
+			"<PixelVertex>",
+			"Character",
+			"dir",
+			"dY",
+			"dX",
+			"Up",
+			"TopoResult",
+			"w",
+			"v",
+			"node",
+			"v",
+			"hline",
+			"italicem",
+			"10",
+			"1\"",
+			"1",
+			"1 ",
+			"8",
+			"2",
+			"6",
+			"2",
+			"small",
+			"span",
+			"$scope",
+			"small",
+			"span",
+			"small",
+			"getRoomNumber",
+			"setRoomNumber",
+			"getEquipmentType",
+			"setEquipmentType",
+			"getId",
+			"getStartDate",
+			"setStartDate",
+			"getEquipment",
+			"setEquipment",
+			"getRoom",
+			"setRoom",
+			"getUser",
+			"setUser",
+			".success",
+			"$location",
+			"DeletebookingModal",
+			"currentDay",
+			"					var own = vm.booking = {};\n					own.startTime = (new Date(data.startDate)).toLocaleTimeString();\n					own.endTime = (new Date(data.endDate)).toLocaleTimeString();\n					own.date = (new Date(data.startDate)).toDateString();\n					own.roomNumber = data.room.roomNumber;\n					own.equipment = data.equipment.length == 0 ? \"None\" : data.equipment;\n					if (own.equipment != \"None\") {\n						if (own.equipment.length == 2) {\n							own.equipment = data.equipment[0].equipmentType == \"laptop\" ? \"Laptop\" : \"Projector\";\n							own.equipment += \" and \";\n							own.equipment += data.equipment[1].equipmentType;\n						} else {\n							own.equipment = own.equipment[0].equipmentType == \"laptop\" ? \"Laptop\" : \"Projector\";\n						}\n					};",
+			"				var own = vm.booking = {};\n				own.startTime = (new Date(data.startDate)).toLocaleTimeString();\n				own.endTime = (new Date(data.endDate)).toLocaleTimeString();\n				own.date = (new Date(data.startDate)).toDateString();\n				own.roomNumber = data.room.roomNumber;\n				own.equipment = data.equipment.length == 0 ? \"None\" : data.equipment;\n				if (own.equipment != \"None\") {\n					if (own.equipment.length == 2) {\n						own.equipment = data.equipment[0].equipmentType == \"laptop\" ? \"Laptop\" : \"Projector\";\n						own.equipment += \" and \";\n						own.equipment += data.equipment[1].equipmentType;\n					} else {\n						own.equipment = own.equipment[0].equipmentType == \"laptop\" ? \"Laptop\" : \"Projector\";\n					}\n				};",
+			"});\n",
+			"old_equip",
+			"throw",
+			"booking",
+			"throw",
+			"/api/me",
+			"/me",
+			"\\t\\ ",
+			"getRouteToLast",
+			"[]",
+			"["
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"$",
+			"<br><br>",
+			"<br>",
+			"\\\\n",
+			"\\n",
+			"",
+			"\\n",
+			"mmC_first",
+			"mmC_minmax",
+			">\\n</",
+			"</",
+			"\\n<",
+			"<\\n",
+			"        ",
+			"    ",
+			"",
+			"\\t",
+			"n/2",
+			"n_0",
+			"\\textsc",
+			"\\\\"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "partials/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								838,
+								838
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1248,
+								1248
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1887,
+								1887
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/controllers/blogController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								700,
+								700
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/controllers/postController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "partials/view_post.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "partials/blog.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1429,
+								1429
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/passLockModal.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 671,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								653,
+								653
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "evolv.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\webpage\\webpage.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

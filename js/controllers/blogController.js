@@ -1,6 +1,7 @@
-angular.module('ngBlogCtrl', ['ui.bootstrap'])
+angular.module('ngBlogCtrl', ['ui.bootstrap', 'ngPassLockModalCtrl', 'ngCookies'])
 
-	.controller('blogController', [ '$http', function($http){
+	.controller('blogController', ['$http', '$uibModal', '$cookies', '$scope', function($http, $uibModal, $cookies, $scope){
+		"use strict";
 		var vm = this;
 		vm.posts = null;
 		vm.showModal = false;
@@ -12,8 +13,30 @@ angular.module('ngBlogCtrl', ['ui.bootstrap'])
 			return tooLong ? s_ + '...' : s_;
 		};
 
-		$http.get('json/posts.json', {cache: true}).success(function (data, status, headers, config){
-			vm.posts = data.posts;
-		});
-	}]);
+		vm.loadPosts = function(){
+            $http.get('json/posts.json', {cache: true}).success(function (data, status, headers, config){
+        		vm.posts = data.posts;
+        	});
+        }
 
+        angular.element(document).ready(function() {
+        	var localCookies = $cookies.getAll();
+
+			if (Object.keys(localCookies).length === 0){
+				console.log("No Cookies");
+				$scope.$emit('showModal');
+			}
+			else if ($cookies.get("passlock-verified") != 'true'){
+				console.log("Not verified");
+				$scope.$emit('showModal');
+			}
+			else if ($cookies.get("passlock-verified") === "true"){
+				console.log("Have a verified cookie");
+				vm.loadPosts();
+			}
+        });
+
+        $scope.$on('loadPosts', function(event) {
+        	vm.loadPosts();
+        });
+    }]);

@@ -1,14 +1,10 @@
-<div id="passLockModal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-header">
-            <h3 class="modal-title">Password Protected!</h3>
-        </div>
-        <div class="modal-body">
-            <p>{{ modalController.body }}</p>
-        </div>
-        <div class="modal-footer">
-            <button class="btn btn-primary" type="button" ng-click="ok()">OK</button>
-            <button class="btn btn-warning" type="button" ng-click="cancel()">Cancel</button>
-        </div>
+    <div class="modal-header center">
+        <h4 class="modal-title" style="text-align: center;">Passcode Please!</h4>
     </div>
-</div>
+    <div class="modal-body" style="text-align: center;">
+        <p>Redraw this pattern to prove you're not a robot!</p>
+        <div class="center" id="patternContainer"></div>
+    </div>
+    <div class="modal-footer">
+
+    </div>

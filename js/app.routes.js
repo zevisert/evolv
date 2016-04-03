@@ -6,26 +6,26 @@ angular.module('appRouter', ['ngRoute'])
 	$routeProvider
 
 	.when('/', {
-		templateUrl: 'partials/evolv.html',
+		templateUrl: 'partials/evolv.html'
 	})
 
 	.when('/home', {
-		templateUrl: 'partials/home.html',
+		templateUrl: 'partials/home.html'
 	})
 
 	.when('/about', {
-		templateUrl: 'partials/about.html',
+		templateUrl: 'partials/about.html'
 	})
 
 	.when('/blog', {
-		templateUrl: 'partials/blog.html',
+		templateUrl: 'partials/blog.html'
 	})
 
 	.when('/blog/:date', {
-		templateUrl: 'partials/view_post.html',
+		templateUrl: 'partials/view_post.html'
 	})
 
 	.otherwise({
-		templateUrl: "partials/404.html",
+		templateUrl: "partials/404.html"
 	});
 }]);

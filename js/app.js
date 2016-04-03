@@ -1,5 +1,5 @@
-angular.module('ngZevIsertApp', ['appRouter', 'ngHomeCtrl', 'ngBlogCtrl', 'ngPostCtrl', 'ngAboutCtrl', 'ngModalCtrl', 'ngSanitize'])
+angular.module('ngZevIsertApp', ['appRouter', 'ngHomeCtrl', 'ngBlogCtrl', 'ngPostCtrl', 'ngAboutCtrl', 'ngSanitize'])
 
-.controller('mainController', function(){
+.controller('mainController', function($scope){
 	var vm = this;
 });

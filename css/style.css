@@ -123,9 +123,19 @@ a>.fa {
 
 /* Bootswatch overrides */
 
-.btn .btn-primary {
-	background-color: #334D5C;
+.btn {
+  color: #FFF;
+  background-color: #334D5C;
+  border-color: transparent;
 }
+.btn:focus,
+.btn.focus,
+.btn:hover {
+  color: #334D5C;
+  background-color: #BDD4DE;
+  border-color: rgba(0, 0, 0, 0);
+}
+
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #2B3A42;

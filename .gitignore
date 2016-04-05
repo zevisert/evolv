@@ -17,29 +17,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# Log files
-*.log
-
-# .idea folder
-.idea/
-
-#Images
-img/
-*.png
-*.svg
-*.ico
-*.jpg
-*.jpeg
-
-#_files
-_*.*
-
-#Blog content
-json/posts.json
-
-#Node modules
-node_modules/
-
 # =========================
 # Operating System Files
 # =========================
@@ -68,5 +45,32 @@ node_modules/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Log files
+*.log
+
+# .idea folder
+.idea/
+
+#Images
+img/
+*.png
+*.svg
+*.ico
+*.jpg
+*.jpeg
+
+#_files
+_*.*
+
+#Blog content
+json/posts.json
+
+#Node modules
+node_modules/
+
+# Specifics
 *.htaccess
 *.pdf
+*.sublime-project
+*.sublime-workspace

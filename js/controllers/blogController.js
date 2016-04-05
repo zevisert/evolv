@@ -23,15 +23,12 @@ angular.module('ngBlogCtrl', ['ui.bootstrap', 'ngPassLockModalCtrl', 'ngCookies'
         	var localCookies = $cookies.getAll();
 
 			if (Object.keys(localCookies).length === 0){
-				console.log("No Cookies");
 				$scope.$emit('showModal');
 			}
 			else if ($cookies.get("passlock-verified") != 'true'){
-				console.log("Not verified");
 				$scope.$emit('showModal');
 			}
 			else if ($cookies.get("passlock-verified") === "true"){
-				console.log("Have a verified cookie");
 				vm.loadPosts();
 			}
         });

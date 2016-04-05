@@ -66,8 +66,6 @@ _*.*
 #Blog content
 json/posts.json
 
-#Node modules
-node_modules/
 
 # Specifics
 *.htaccess

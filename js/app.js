@@ -3,4 +3,10 @@ angular.module('ngZevIsertApp', ['appRouter', 'ngHomeCtrl', 'ngBlogCtrl', 'ngPos
 .controller('mainController', function($scope){
 	var vm = this;
 	var evolvMode = true;
-});
+})
+
+.factory('evolvModeService', [function () {
+	return {
+		mode: ngZevIsertApp.evolvMode
+	};
+}]);

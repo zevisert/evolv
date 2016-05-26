@@ -3,15 +3,15 @@ angular.module('appRouter', ['ngRoute'])
 .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 	$locationProvider.html5Mode(true);
 
+	var homePage = 'partials/home.html';
+	if (evolvMode){
+		homePage = 'partials/evolv.html';
+	}
+
 	$routeProvider
 
 	.when('/', {
-		if (evolvMode){
-			templateUrl: 'partials/evolv.html'
-		}
-		else {
-			templateUrl: 'partials/home.html'
-		}
+		templateUrl: homePage
 	})
 
 	.when('/home', {

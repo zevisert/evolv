@@ -1,12 +1,12 @@
 angular.module('ngZevIsertApp', ['appRouter', 'ngHomeCtrl', 'ngBlogCtrl', 'ngPostCtrl', 'ngAboutCtrl', 'ngSanitize'])
 
-.controller('mainController', function($scope){
-	var vm = this;
-	var evolvMode = true;
-})
-
 .factory('evolvModeService', [function () {
 	return {
-		mode: ngZevIsertApp.evolvMode
+		mode: true
 	};
-}]);
+}])
+
+.controller('mainController', function($scope, evolvModeService){
+	var vm = this;
+	var evolvMode = evolvModeService.mode;
+});

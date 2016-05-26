@@ -1,4 +1,4 @@
-angular.module('appRouter', ['ngRoute'])
+angular.module('appRouter', ['ngRoute', 'evolvModeService'])
 
 .config(['$routeProvider', '$locationProvider', 'evolvModeService', function($routeProvider, $locationProvider, evolvModeService) {
 	$locationProvider.html5Mode(true);

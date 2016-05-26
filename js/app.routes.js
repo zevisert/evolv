@@ -1,12 +1,21 @@
 angular.module('appRouter', ['ngRoute'])
 
+function basePage () {
+	if (evolvMode){
+		return 'partials/evolv.html';
+	}
+	else{
+		return 'partials/home.html';
+	}
+}
+
 .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 	$locationProvider.html5Mode(true);
 
 	$routeProvider
 
 	.when('/', {
-		templateUrl: 'partials/home.html'
+		templateUrl: basePage()
 	})
 
 	.when('/home', {

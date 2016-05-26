@@ -11,7 +11,7 @@ angular.module('appRouter', ['ngRoute'])
 	$routeProvider
 
 	.when('/', {
-		templateUrl: homePage
+		templateUrl: 'partials/home.html'
 	})
 
 	.when('/home', {

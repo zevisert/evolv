@@ -1,11 +1,4 @@
-function basePage () {
-	if (evolvMode){
-		return 'partials/evolv.html';
-	}
-	else{
-		return 'partials/home.html';
-	}
-}
+
 
 angular.module('appRouter', ['ngRoute'])
 
@@ -15,7 +8,14 @@ angular.module('appRouter', ['ngRoute'])
 	$routeProvider
 
 	.when('/', {
-		templateUrl: basePage()
+		templateUrl: function () {
+			if (evolvMode){
+				return 'partials/evolv.html';
+			}
+			else{
+				return 'partials/home.html';
+			}
+		}
 	})
 
 	.when('/home', {

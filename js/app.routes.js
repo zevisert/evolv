@@ -1,13 +1,16 @@
-angular.module('appRouter', ['ngRoute', 'evolvModeService'])
+angular.module('appConfig', [])
+	.constant('evolvMode', false);
 
-.config(['$routeProvider', '$locationProvider', 'evolvModeService', function($routeProvider, $locationProvider, evolvModeService) {
+angular.module('appRouter', ['ngRoute', 'appConfig'])
+
+.config(['$routeProvider', '$locationProvider', 'evolvMode', function($routeProvider, $locationProvider, evolvMode) {
 	$locationProvider.html5Mode(true);
-
+	console.log('router ' + evolvMode);
 	$routeProvider
 
 	.when('/', {
 		templateUrl: function () {
-			if (evolvModeService.mode){
+			if (evolvMode){
 				return 'partials/evolv.html';
 			}
 			else{

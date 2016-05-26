@@ -10,7 +10,7 @@
 			</button>
 			<div class="navbar-header">
 				<div ng-init="imgsrc='/img/icons/icon-light.svg'" ng-mouseover="imgsrc='/img/icons/icon-highlight.svg'" ng-mouseout="imgsrc='/img/icons/icon-light.svg'">
-					<a href="/" class='navbar-brand'>
+					<a href="{{ evolvMode ? '/evolv' : '/'}}" class='navbar-brand'>
 						<img id='navbar-icon' class='navbar-brand' ng-src="{{imgsrc}}"/>
 						Zev Isert
 					</a>

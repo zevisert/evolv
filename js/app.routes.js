@@ -1,5 +1,3 @@
-angular.module('appRouter', ['ngRoute'])
-
 function basePage () {
 	if (evolvMode){
 		return 'partials/evolv.html';
@@ -8,6 +6,8 @@ function basePage () {
 		return 'partials/home.html';
 	}
 }
+
+angular.module('appRouter', ['ngRoute'])
 
 .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 	$locationProvider.html5Mode(true);

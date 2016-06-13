@@ -1,6 +1,6 @@
 var passLock = angular.module('ngPassLockModalCtrl', ['ui.bootstrap', 'ngCookies']);
 
-passLock.controller('modalController', ['$scope', '$uibModal', '$cookies', function ($scope, $uibModal, $cookies) {
+passLock.controller('modalController', ['$scope', '$uibModal', '$cookies', '$http', function ($scope, $uibModal, $cookies, $http) {
 
     var solution = '26548';
 

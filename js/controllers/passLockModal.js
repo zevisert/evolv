@@ -18,7 +18,7 @@ passLock.controller('modalController', ['$scope', '$uibModal', '$cookies', '$htt
                 onDraw: function (pattern) {
                     $scope.lock.checkForPattern(solution, function () {
                         // Callback for the correct pattern
-                        $http.post('http://zevisert.herokuapp.com/serve/authenticate', null).success(function (data) {
+                        $http.post('http://zevisert.herokuapp.com/serve/authenticate', {}).success(function (data) {
                             if (data.success)
                             {
                                 var expiry = new Date();

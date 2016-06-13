@@ -1,10 +1,10 @@
-angular.module('ngPassLockModalCtrl', ['ui.bootstrap', 'ngCookies'])
+var passLock = angular.module('ngPassLockModalCtrl', ['ui.bootstrap', 'ngCookies']);
 
-.controller('modalController', ['$scope', '$uibModal', '$cookies', function ($scope, $uibModal, $cookies) {
+passLock.controller('modalController', ['$scope', '$uibModal', '$cookies', function ($scope, $uibModal, $cookies) {
 
     var solution = '26548';
 
-    $scope.$on('showModal', function(event) {
+    $scope.$on('showModal', function (event) {
         var modalInstance = $uibModal.open({
             animation: true,
             templateUrl: '/templates/passLockModal.html',
@@ -14,31 +14,37 @@ angular.module('ngPassLockModalCtrl', ['ui.bootstrap', 'ngCookies'])
 
         modalInstance.rendered.then(function () {
             $scope.lock = new PatternLock('#patternContainer', {
-                enableSetPattern : true,
-                onDraw:function(pattern){
-                    $scope.lock.checkForPattern(solution,function(){
+                enableSetPattern: true,
+                onDraw: function (pattern) {
+                    $scope.lock.checkForPattern(solution, function () {
                         // Callback for the correct pattern
-                        var expiry = new Date();
-                        expiry.setHours(expiry.getHours() + 1);
-                        $cookies.put('passlock-verified', 'true', {expires: expiry});
-                        $scope.$broadcast('loadPosts');
-                        modalInstance.close();
-                    },function(){
+                        $http.post('http://zevisert.herokuapp.com/serve/authenticate', null).success(function (data) {
+                            if (data.success)
+                            {
+                                var expiry = new Date();
+                                expiry.setHours(expiry.getHours() + 1);
+                                $cookies.put('passlock-verified', 'true', { expires: expiry });
+                                $cookies.put('passlock-token', data.token, { expires: expiry });
+                                $scope.$broadcast('loadPosts');
+                            }
+                            modalInstance.close();
+                        });
+                    }, function () {
                         // Callback for wrong patterns
                     });
                 }
             });
             $scope.lock.setPattern(solution);
 
-        }, function(){
-                // The modal failed to open
+        }, function () {
+            // The modal failed to open
         });
 
         modalInstance.result.then(function () {
-                // What to do when modal closes on ok
-            }, function () {
-                // What to do when modal closed on cancel
-                console.log('Modal dismissed at: ' + new Date());
-            });
+            // What to do when modal closes on ok
+        }, function () {
+            // What to do when modal closed on cancel
+            console.log('Modal dismissed at: ' + new Date());
+        });
     });
 }]);

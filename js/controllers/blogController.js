@@ -14,10 +14,10 @@ blogController.controller('blogController', ['$http', '$uibModal', '$cookies', '
 
     vm.loadPosts = function () {
         var config = {
-            cache: true,
             headers: {
-                'x-access-token': $cookies.get('passlock-token'),
-            }
+                'x-access-token': $cookies.get('passlock-token')
+            },
+            cache : true
         };
 
         $http.get('http://zevisert.herokuapp.com/serve/posts', config).success(function (data, status, headers, config) {

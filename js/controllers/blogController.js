@@ -20,8 +20,9 @@ blogController.controller('blogController', ['$http', '$uibModal', '$cookies', '
             cache : true
         };
 
-        $http.get('http://zevisert.herokuapp.com/serve/posts', config).success(function (data, status, headers, config) {
-            vm.posts = data.posts;
+        $http.get('http://zevisert.herokuapp.com/serve/posts', config)
+            .success(function (data, status, headers, config) {
+                vm.posts = data.posts;
         });
     }
 

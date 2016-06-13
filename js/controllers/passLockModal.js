@@ -18,16 +18,17 @@ passLock.controller('modalController', ['$scope', '$uibModal', '$cookies', '$htt
                 onDraw: function (pattern) {
                     $scope.lock.checkForPattern(solution, function () {
                         // Callback for the correct pattern
-                        $http.post('http://zevisert.herokuapp.com/serve/authenticate', {}).success(function (data) {
-                            if (data.success)
-                            {
-                                var expiry = new Date();
-                                expiry.setHours(expiry.getHours() + 1);
-                                $cookies.put('passlock-verified', 'true', { expires: expiry });
-                                $cookies.put('passlock-token', data.token, { expires: expiry });
-                                $scope.$broadcast('loadPosts');
-                            }
-                            modalInstance.close();
+                        $http.post('http://zevisert.herokuapp.com/serve/authenticate', { headers: { 'X-Testing': 'testing' } })
+                            .success(function (data) {
+                                if (data.success)
+                                {
+                                    var expiry = new Date();
+                                    expiry.setHours(expiry.getHours() + 1);
+                                    $cookies.put('passlock-verified', 'true', { expires: expiry });
+                                    $cookies.put('passlock-token', data.token, { expires: expiry });
+                                    $scope.$broadcast('loadPosts');
+                                }
+                                modalInstance.close();
                         });
                     }, function () {
                         // Callback for wrong patterns

@@ -11,7 +11,7 @@ postController.controller('postController', ['$http', '$routeParams', '$location
         cache: true
     };
 
-    $http.get('http://zevisert.herokuapp.com/serve/posts/' + $routeParams.date, config)
+    $http.get('http://zevisert.herokuapp.com/serve/post/' + $routeParams.date, config)
         .success(function (data, status, headers, config) {
             if (status === 200) {
                 vm.date = data.post.date;

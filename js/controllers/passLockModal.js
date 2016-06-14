@@ -22,8 +22,7 @@ passLock.controller('modalController', ['$scope', '$uibModal', '$cookies', '$htt
                             .success(function (data) {
                                 if (data.success)
                                 {
-                                    var expiry = new Date();
-                                    expiry.setHours(expiry.getMinutes() + 10);
+                                    var expiry = new Date(data.expires);
                                     $cookies.put('passlock-verified', 'true', { expires: expiry });
                                     $cookies.put('passlock-token', data.token, { expires: expiry });
                                     $scope.$broadcast('loadPosts');

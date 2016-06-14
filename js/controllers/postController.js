@@ -14,22 +14,22 @@ postController.controller('postController', ['$http', '$routeParams', '$location
     $http.get('http://zevisert.herokuapp.com/serve/post/' + $routeParams.date, config)
         .success(function (data, status, headers, config) {
             if (status === 200) {
-                vm.date = data.post.date;
-                vm.title = data.post.title;
-                vm.body = data.post.body;
+                vm.date = data.date;
+                vm.title = data.title;
+                vm.body = data.body;
 
                 if (typeof vm.date === "string") {
-                    vm.date = Number(data.post.date);
+                    vm.date = Number(data.date);
                 }
 
                 vm.posted = new Date(vm.date).toDateString();
 
-                if (data.post.img.length === 0) {
+                if (data.img.length === 0) {
                     vm.img = "";
                     vm.hasImage = false;
                 }
                 else {
-                    vm.img = "/img/photos/" + key + "/" + data.post.img;
+                    vm.img = "/img/photos/" + key + "/" + data.img;
                     vm.hasImage = true;
                 }
             }

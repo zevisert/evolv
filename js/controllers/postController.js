@@ -36,5 +36,7 @@ postController.controller('postController', ['$http', '$routeParams', '$location
             else {
                 $location.url('/404');
             }
-    });
+        }).error(function () {
+            $location.url('/404')
+        });
 }]);

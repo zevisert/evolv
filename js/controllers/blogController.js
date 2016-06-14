@@ -14,9 +14,7 @@ blogController.controller('blogController', ['$http', '$uibModal', '$cookies', '
 
     vm.loadPosts = function () {
         var config = {
-            headers: {
-                'x-access-token': $cookies.get('passlock-token').toString()
-            },
+            params: {"x-access-token": $cookies.get('passlock-token')},
             cache : true
         };
 

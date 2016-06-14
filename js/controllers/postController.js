@@ -1,32 +1,40 @@
 var postController = angular.module('ngPostCtrl', ['ui.bootstrap']);
 
-postController.controller('postController', ['$http', '$routeParams', '$location', function ($http, $routeParams, $location) {
+postController.controller('postController', ['$http', '$routeParams', '$location', '$cookies', function ($http, $routeParams, $location, $cookies) {
     "use strict";
     var vm = this;
     vm.post = null;
     vm.showModal = false;
 
-    $http.get('json/posts.json').success(function (data) {
-        var key = $routeParams.date;
-        if (data.posts.hasOwnProperty(key)) {
-            vm.title = data.posts[key].title;
-            vm.body = data.posts[key].body;
-            vm.date = data.posts[key].date;
-            if (typeof vm.date === "string") {
-                vm.date = Number(data.posts[key].date);
-            }
-            vm.posted = new Date(vm.date).toDateString();
+    var config = {
+        params: { "token": $cookies.get('passlock-token') },
+        cache: true
+    };
 
-            if (data.posts[key].img.length === 0) {
-                vm.img = "";
-                vm.hasImage = false;
+    $http.get('http://zevisert.herokuapp.com/serve/posts/' + $routeParams.date, config)
+        .success(function (data, status, headers, config) {
+            if (status === 200) {
+                vm.date = data.post.date;
+                vm.title = data.post.title;
+                vm.body = data.post.body;
+
+                if (typeof vm.date === "string") {
+                    vm.date = Number(data.post.date);
+                }
+
+                vm.posted = new Date(vm.date).toDateString();
+
+                if (data.post.img.length === 0) {
+                    vm.img = "";
+                    vm.hasImage = false;
+                }
+                else {
+                    vm.img = "/img/photos/" + key + "/" + data.post.img;
+                    vm.hasImage = true;
+                }
             }
             else {
-                vm.img = "/img/photos/" + key + "/" + data.posts[key].img;
-                vm.hasImage = true;
+                $location.url('/404');
             }
-        } else {
-            $location.url('/404');
-        }
     });
 }]);

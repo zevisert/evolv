@@ -29,7 +29,7 @@ postController.controller('postController', ['$http', '$routeParams', '$location
                     vm.hasImage = false;
                 }
                 else {
-                    vm.img = "/img/photos/" + key + "/" + data.img;
+                    vm.img = "/img/photos/" + $routeParams.date + "/" + data.img;
                     vm.hasImage = true;
                 }
             }

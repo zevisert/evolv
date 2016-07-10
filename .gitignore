@@ -52,6 +52,9 @@ Temporary Items
 # .idea folder
 .idea/
 
+# packages folder
+packages/
+
 #Images
 img/
 *.png
@@ -72,3 +75,4 @@ json/posts.json
 *.pdf
 *.sublime-project
 *.sublime-workspace
+*.dll

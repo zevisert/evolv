@@ -1,5 +1,11 @@
-angular.module('ngZevIsertApp', ['appRouter', 'ngHomeCtrl', 'ngBlogCtrl', 'ngPostCtrl', 'ngAboutCtrl', 'ngSanitize'])
+angular.module('ngZevIsertApp', ['appConfig', 'appRouter', 'ngHomeCtrl', 'ngBlogCtrl', 'ngPostCtrl', 'ngAboutCtrl', 'ngSanitize'])
 
-.controller('mainController', function($scope){
+.controller('mainController', ['$rootScope', 'evolvMode', function($rootScope, evolvMode){
 	var vm = this;
-});
+	vm.evolvMode = evolvMode;
+	if (evolvMode){
+		$rootScope.title = "Zev Isert - Evolv";
+	} else {
+		$rootScope.title = "Zev Isert";
+	}
+}]);
